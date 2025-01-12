@@ -17,6 +17,7 @@ body {
         .brand h1 {
             margin: 0;
             font-size: 22px;
+            color: red;
         }
         .brand p {
             margin: 5px 0 0;
