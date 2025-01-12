@@ -1,63 +1,63 @@
+/* General Styles */
 body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom, black, #0d3b27, black);
-            color: white;
-        }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.7);
-        }
-        .brand {
-            font-size: 18px;
-        }
-        .brand h1 {
-            margin: 0;
-            font-size: 50px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, black, #0d3b27, black);
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.brand {
+    font-size: 18px;
+}
+.brand h1 {
+    margin: 0;
+    font-size: 22px;
+}
+.brand p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #aaa;
+}
 
-        }
-        .brand p {
-            margin: 5px 0 0;
-            font-size: 14px;
-            color: #aaa;
-        }
-
-        /* Navigation Styles */
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-        }
-        nav ul li {
-            position: relative;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-            padding: 10px 20px;
-            display: block;
-        }
-        nav ul li a:hover {
-            background: #555; /* Light gray hover effect */
-            border-radius: 5px;
-        }
-        nav ul li ul {
-            position: absolute;
-            top: 100%;
-            left: 0;
-            background: rgba(0, 0, 0, 0.9);
-            display: none;
-            border-radius: 5px;
-            padding: 0;
-            margin: 0;
-        }
-        nav ul li ul li a {
-            padding: 10px 20px;
-        }
-        nav ul li:hover ul {
-            display: block;
-        }
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    position: relative;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+}
+nav ul li a:hover {
+    background: #555; /* Light gray hover effect */
+    border-radius: 5px;
+}
+nav ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+}
+nav ul li ul li a {
+    padding: 10px 20px;
+}
+nav ul li:hover ul {
+    display: block;
+}
